@@ -6,10 +6,10 @@ Docker image to install and run WSO2 API Manager. It uses the [dockerfile/java](
 
 The dockerfile will:
 
-* Use `wget` to pull the APIM 1.9.0 ZIP from WS02 web server into the container `/opt` folder.
+* Use `wget` to pull the APIM 1.10.0 ZIP from WS02 web server into the container `/opt` folder.
 * Install `zip`.
-* Unzip the APIM 1.9.0 ZIP.
-* Remove the APIM1.9.0 ZIP.
+* Unzip the APIM 1.10.0 ZIP.
+* Remove the APIM1.10.0 ZIP.
 * Expose the container port `9443`.
 * Set the API Manager `wso2server.sh` start-up script as the container start-up command.
 

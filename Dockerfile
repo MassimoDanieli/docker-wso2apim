@@ -13,4 +13,4 @@ apt-get update && \
 
 ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
 EXPOSE 9443 9763 8280 8243 10397
-CMD ["/opt/wso2am-2.0.0/bin/wso2server.sh"]
+ENTRYPOINT ["/opt/wso2am-2.0.0/bin/wso2server.sh"]
